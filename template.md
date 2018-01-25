@@ -14,7 +14,6 @@ const binarySearch = (arr, num) => {
 	let start = 0;
 	let end = arr.length;
 
-// don't do <=
 	while( start + 1 < end ) {
 	let mid = start + Math.floor((end - start) / 2);
 	if(num === arr[mid]) {
